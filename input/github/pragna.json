@@ -1,9 +1,14 @@
 {
-    "full_name": "Pragna A",
-    "email": "pragna@gmail.com",
+    "name": "Pragna A",
+    "bio": "Python Developer",
+    "location": "Bengaluru",
+    "html_url": "https://github.com/pragna",
+    "language": "Python",
     "skills": [
-        "Python",
+        "Python3",
+        "Python3",
         "Java",
         "Docker"
-    ]
+    ],
+    "email": "pragna@gmail.com"
 }
