@@ -102,36 +102,6 @@ This architecture emphasizes **separation of concerns, maintainability, explaina
 * Logging
 
 
-
-## Example Output
-
-```json
-{
-  "candidate_id": "CAND-001",
-  "full_name": "Pragna",
-  "email": "pragna@gmail.com",
-  "phone": "+919876543210",
-  "skills": [
-    "Python",
-    "SQL",
-    "Java"
-  ],
-  "education": [
-    "B.E. Computer Science"
-  ],
-  "experience": [
-    "Software Engineering Intern"
-  ],
-  "confidence": 0.95,
-  "sources": {
-    "email": ["csv", "resume"],
-    "phone": ["csv"],
-    "skills": ["resume", "github"],
-    "education": ["resume"]
-  }
-}
-```
-
 ## Future Improvements
 
 * LinkedIn and ATS integrations
