@@ -1,0 +1,4 @@
+full_name,email,phone,skills,resume_file,github_file
+Pragna,pragna@gmail.com,+919876543210,"Python,SQL,Docker",pragna.txt,pragna.json
+Rahul Sharma,rahul.sharma@gmail.com,+919876500000,"Java,Spring Boot,AWS",rahul.txt,rahul.json
+Ananya Reddy,ananya.reddy@gmail.com,+919876511111,"React,Node.js,MongoDB",ananya.txt,ananya.json

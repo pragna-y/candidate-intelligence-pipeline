@@ -1,0 +1,4 @@
+Name: Alluri Pragna
+Email: pragna@gmail.com
+Phone: +91 9876543210
+Skills: Python, SQL, Java, AWS

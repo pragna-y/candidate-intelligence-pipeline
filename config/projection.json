@@ -1,0 +1,42 @@
+{
+    "fields":[
+
+        {
+            "output":"candidate_id",
+            "path":"candidate_id"
+        },
+
+        {
+            "output":"name",
+            "path":"full_name"
+        },
+
+        {
+            "output":"email",
+            "path":"emails.0",
+            "default":""
+        },
+
+        {
+            "output":"phone",
+            "path":"phones.0",
+            "default":""
+        },
+
+        {
+            "output":"github",
+            "path":"links.github"
+        },
+
+        {
+            "output":"headline",
+            "path":"headline"
+        },
+
+        {
+            "output":"confidence",
+            "path":"overall_confidence"
+        }
+
+    ]
+}

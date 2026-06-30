@@ -1,0 +1,40 @@
+Rahul Sharma
+
+Software Engineer
+
+Email:
+rahul.sharma@gmail.com
+
+Phone:
++91 9876500000
+
+Skills
+
+Java
+Spring Boot
+AWS
+Docker
+Git
+
+Education
+
+Bachelor of Technology
+Computer Science
+RV College of Engineering
+Bengaluru
+
+Experience
+
+Software Engineer Intern
+ABC Technologies
+January 2025 - June 2025
+
+Worked on REST APIs using Spring Boot.
+
+GitHub
+
+https://github.com/rahulsharma
+
+LinkedIn
+
+https://linkedin.com/in/rahulsharma

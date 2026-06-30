@@ -1,0 +1,41 @@
+Ananya Reddy
+
+Full Stack Developer
+
+Email:
+ananya.reddy@gmail.com
+
+Phone:
++91 9876511111
+
+Skills
+
+React
+Node.js
+MongoDB
+JavaScript
+HTML
+CSS
+
+Education
+
+Bachelor of Engineering
+Computer Science
+PES University
+Bengaluru
+
+Experience
+
+Frontend Developer Intern
+XYZ Solutions
+February 2025 - July 2025
+
+Developed responsive web applications using React.
+
+GitHub
+
+https://github.com/ananyareddy
+
+LinkedIn
+
+https://linkedin.com/in/ananyareddy

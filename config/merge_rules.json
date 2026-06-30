@@ -1,0 +1,13 @@
+{
+    "priority": [
+        "Recruiter CSV",
+        "Resume",
+        "GitHub"
+    ],
+
+    "source_confidence": {
+        "Recruiter CSV": 1.0,
+        "Resume": 0.90,
+        "GitHub": 0.80
+    }
+}
