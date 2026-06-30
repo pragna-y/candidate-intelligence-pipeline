@@ -32,28 +32,43 @@ The objective is not just to transform data, but to produce candidate profiles t
 
 ## Pipeline
 
-Recruiter CSV
-Resume
-GitHub
-     │
-     ▼
-Readers
-     ▼
-Extraction
-     ▼
-Normalization
-     ▼
-Identity Resolution
-     ▼
-Merge Engine
-     ▼
-Confidence Scoring
-     ▼
-Validation
-     ▼
-Projection
-     ▼
-JSON Export
+```text
+                    Input Sources
+    ┌────────────┬────────────┬────────────┐
+    │Recruiter   │   Resume   │  GitHub    │
+    │    CSV     │            │  Profile   │
+    └─────┬──────┴─────┬──────┴─────┬──────┘
+          │            │            │
+          └────────────┴────────────┘
+                       │
+                       ▼
+                 Source Readers
+                       │
+                       ▼
+                  Information
+                   Extraction
+                       │
+                       ▼
+                 Data Normalization
+                       │
+                       ▼
+               Identity Resolution
+                       │
+                       ▼
+                  Intelligent Merge
+                       │
+                       ▼
+                Confidence Scoring
+                       │
+                       ▼
+                 Data Validation
+                       │
+                       ▼
+              Configurable Projection
+                       │
+                       ▼
+         Canonical Candidate Profile (JSON)
+```
 
 ## Engineering Decisions
 
