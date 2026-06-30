@@ -3,5 +3,12 @@
     "bio": "Backend Java Developer",
     "location": "Bengaluru",
     "html_url": "https://github.com/rahulsharma",
-    "language": "Java"
+    "language": "Java",
+    "skills": [
+        "Java",
+        "Spring Boot",
+        "AWS",
+        "Git"
+    ],
+    "email": "rahul.sharma@"
 }
