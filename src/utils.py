@@ -114,15 +114,6 @@ def merge_string_lists(list1, list2):
 
 
 def merge_dict_list(items, key):
-    """
-    Merge list of dictionaries.
-
-    Removes duplicates based on one key.
-
-    Example:
-
-    merge_dict_list(skills,"name")
-    """
 
     merged = {}
 
@@ -130,12 +121,22 @@ def merge_dict_list(items, key):
 
         value = item.get(key)
 
-        if value:
+        if not value:
+            continue
 
-            merged[value.lower()] = item
+        lookup = value.strip().lower()
+
+        if lookup not in merged:
+
+            merged[lookup] = item
+
+        else:
+
+            if item.get("confidence", 0) > merged[lookup].get("confidence", 0):
+
+                merged[lookup] = item
 
     return list(merged.values())
-
 
 # ----------------------------------------------------
 # Nested Dictionary Utility
