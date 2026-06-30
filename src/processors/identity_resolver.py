@@ -40,77 +40,39 @@ class IdentityResolver:
     # ---------------------------------
 
     @classmethod
-    def score(
+    def score(cls, candidate1, candidate2):
+        score = 0.0
 
-        cls,
+        # Email
+        if candidate1.emails and candidate2.emails:
+         if candidate1.emails[0].lower() == candidate2.emails[0].lower():
+            score += cls.EMAIL_WEIGHT
 
-        candidate1,
+        # Phone
+        if candidate1.phones and candidate2.phones:
+         if candidate1.phones[0] == candidate2.phones[0]:
+            score += cls.PHONE_WEIGHT
 
-        candidate2
+        # Name
+        name_similarity = cls.similarity(
+        candidate1.full_name,
+        candidate2.full_name
+    )
 
+        score += name_similarity * cls.NAME_WEIGHT
+
+    # GitHub profiles usually don't expose email/phone.
+    # If names are almost identical and one record has a GitHub link,
+    # allow the match.
+
+        if (
+         name_similarity >= 0.95
+         and (
+            candidate1.links.get("github")
+            or candidate2.links.get("github")
+         )
     ):
-
-        score = 0
-
-        if (
-
-            candidate1.emails
-
-            and
-
-            candidate2.emails
-
-        ):
-
-            if (
-
-                candidate1.emails[0]
-
-                ==
-
-                candidate2.emails[0]
-
-            ):
-
-                score += cls.EMAIL_WEIGHT
-
-        if (
-
-            candidate1.phones
-
-            and
-
-            candidate2.phones
-
-        ):
-
-            if (
-
-                candidate1.phones[0]
-
-                ==
-
-                candidate2.phones[0]
-
-            ):
-
-                score += cls.PHONE_WEIGHT
-
-        score += (
-
-            cls.similarity(
-
-                candidate1.full_name,
-
-                candidate2.full_name
-
-            )
-
-            *
-
-            cls.NAME_WEIGHT
-
-        )
+         score = max(score, cls.THRESHOLD)
 
         return round(score, 2)
 
