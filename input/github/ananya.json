@@ -3,5 +3,12 @@
     "bio": "Full Stack Developer",
     "location": "Bengaluru",
     "html_url": "https://github.com/ananyareddy",
-    "language": "JavaScript"
+    "language": "JavaScript",
+    "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Git"
+    ]
 }
