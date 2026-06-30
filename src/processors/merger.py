@@ -99,12 +99,13 @@ class CandidateMerger:
 
             # Store ALL provenance
             for field, info in candidate.provenance.items():
-
                 if field not in merged.provenance:
+                 merged.provenance[field] = []
 
-                    merged.provenance[field] = []
-
-                merged.provenance[field].append(info)
+                if isinstance(info, list):
+                 merged.provenance[field].extend(info)
+                else:
+                 merged.provenance[field].append(info)
 
         # Decision Trace
         for field, history in merged.provenance.items():
