@@ -95,7 +95,13 @@ class CSVReader:
                     "phone": {
                         "source": "Recruiter CSV",
                         "method": "Direct"
-                    }
+                    },
+                    "skills": [
+        {
+            "source": "GitHub",
+            "method": "Profile"
+        }
+    ]
 
                 }
 
