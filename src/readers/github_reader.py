@@ -36,35 +36,85 @@ class GitHubReader:
 
         candidate.source = "GitHub"
 
-        candidate.full_name = data.get("name")
+        # -----------------------------
+        # Basic Information
+        # -----------------------------
+
+        candidate.full_name = (
+            data.get("name")
+            or data.get("full_name")
+        )
 
         candidate.headline = data.get("bio")
 
         location = data.get("location")
 
         if location:
-
             candidate.location["city"] = location
 
         candidate.links["github"] = data.get(
             "html_url"
         )
 
-        language = data.get("language")
+        # -----------------------------
+        # Skills from skills[]
+        # -----------------------------
 
-        if language:
+        skills = data.get("skills", [])
+
+        for skill in skills:
 
             candidate.skills.append({
 
-                "name": language,
+                "name": skill,
 
-                "confidence": 0.85,
+                "confidence": 0.90,
 
                 "sources": [
                     "GitHub"
                 ]
 
             })
+
+        # -----------------------------
+        # Primary Language
+        # -----------------------------
+
+        language = data.get("language")
+
+        if language:
+
+            already_exists = any(
+                s["name"].lower() == language.lower()
+                for s in candidate.skills
+            )
+
+            if not already_exists:
+
+                candidate.skills.append({
+
+                    "name": language,
+
+                    "confidence": 0.85,
+
+                    "sources": [
+                        "GitHub"
+                    ]
+
+                })
+
+        # -----------------------------
+        # Email (if available)
+        # -----------------------------
+
+        email = data.get("email")
+
+        if email:
+            candidate.emails.append(email)
+
+        # -----------------------------
+        # Provenance
+        # -----------------------------
 
         candidate.provenance = {
 
@@ -76,7 +126,14 @@ class GitHubReader:
             "headline": {
                 "source": "GitHub",
                 "method": "Direct"
-            }
+            },
+
+           "skills": [
+        {
+            "source": "GitHub",
+            "method": "Profile"
+        }
+    ]
 
         }
 
