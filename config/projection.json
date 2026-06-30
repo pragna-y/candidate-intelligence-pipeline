@@ -34,6 +34,12 @@
         },
 
         {
+            "output":"skills",
+            "path":"skills",
+            "default":[]
+        },
+
+        {
             "output":"confidence",
             "path":"overall_confidence"
         }
