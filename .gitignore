@@ -1,4 +1,13 @@
+# Virtual environment
 venv/
+
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Runtime logs
+logs/
+*.log
+
+# Generated outputs
 output/
