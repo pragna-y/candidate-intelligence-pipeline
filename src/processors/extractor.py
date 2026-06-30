@@ -24,15 +24,19 @@ KNOWN_SKILLS = [
 
     "Python",
     "Java",
+    "JavaScript",
     "SQL",
+    "MySQL",
+    "MongoDB",
+    "React",
+    "Node.js",
+    "Spring Boot",
     "Docker",
     "AWS",
     "Git",
     "Linux",
-    "React",
-    "Node.js",
-    "MongoDB",
-    "MySQL"
+    "HTML",
+    "CSS"
 
 ]
 
