@@ -94,30 +94,20 @@ This architecture emphasizes **separation of concerns, maintainability, explaina
 
 ## Technologies
 
-* Python 3
-* Object-Oriented Programming (OOP)
-* Dataclasses
-* CSV & JSON Processing
-* Regular Expressions
-* Logging
+- Python 3
+- Object-Oriented Programming (OOP)
+- Dataclasses
+- CSV & JSON Processing
+- Regular Expressions
+- Python Logging
 
 
 ## Future Improvements
 
-* LinkedIn and ATS integrations
-* OCR-based resume parsing
-* REST API
-* Docker deployment
-* Automated testing
-* AI-assisted candidate enrichment
-
-
-## Repository Contents
-
-* **README.md** – Project overview and setup
-* **DESIGN.md** – Architecture and design decisions
-* **src/** – Pipeline implementation
-* **config/** – Merge and projection configuration
-* **tests/** – Unit tests
-* **output/** – Generated pipeline outputs
+- LinkedIn and ATS integrations
+- OCR-based resume parsing
+- REST API for pipeline execution
+- Containerization with Docker
+- Automated unit and integration testing
+- AI-assisted candidate enrichment
 
