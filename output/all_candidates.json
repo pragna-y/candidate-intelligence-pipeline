@@ -1,0 +1,147 @@
+[
+    {
+        "candidate_id": "CAND-D63BA6CC",
+        "name": "Pragna",
+        "email": "pragna@gmail.com",
+        "phone": "",
+        "github": null,
+        "headline": null,
+        "skills": [
+            {
+                "name": "Python",
+                "confidence": 1.0,
+                "sources": [
+                    "Recruiter CSV"
+                ]
+            },
+            {
+                "name": "SQL",
+                "confidence": 1.0,
+                "sources": [
+                    "Recruiter CSV"
+                ]
+            },
+            {
+                "name": "Docker",
+                "confidence": 1.0,
+                "sources": [
+                    "Recruiter CSV"
+                ]
+            }
+        ],
+        "confidence": 0.95
+    },
+    {
+        "candidate_id": "CAND-B946FC03",
+        "name": "Rahul Sharma",
+        "email": "rahul.sharma@",
+        "phone": "+919876500000",
+        "github": "https://github.com/rahulsharma",
+        "headline": "Backend Java Developer",
+        "skills": [
+            {
+                "name": "Java",
+                "confidence": 1.0,
+                "sources": [
+                    "Recruiter CSV"
+                ]
+            },
+            {
+                "name": "Spring Boot",
+                "confidence": 1.0,
+                "sources": [
+                    "Recruiter CSV"
+                ]
+            },
+            {
+                "name": "AWS",
+                "confidence": 1.0,
+                "sources": [
+                    "Recruiter CSV"
+                ]
+            },
+            {
+                "name": "Docker",
+                "confidence": 0.95,
+                "sources": [
+                    "Resume"
+                ]
+            },
+            {
+                "name": "Git",
+                "confidence": 0.95,
+                "sources": [
+                    "Resume"
+                ]
+            }
+        ],
+        "confidence": 0.92
+    },
+    {
+        "candidate_id": "CAND-A3D18C2F",
+        "name": "Ananya Reddy",
+        "email": "ananya.reddy@gmail.com",
+        "phone": "+919876511111",
+        "github": "https://github.com/ananyareddy",
+        "headline": "Full Stack Developer",
+        "skills": [
+            {
+                "name": "React",
+                "confidence": 1.0,
+                "sources": [
+                    "Recruiter CSV"
+                ]
+            },
+            {
+                "name": "Node.Js",
+                "confidence": 1.0,
+                "sources": [
+                    "Recruiter CSV"
+                ]
+            },
+            {
+                "name": "Mongodb",
+                "confidence": 1.0,
+                "sources": [
+                    "Recruiter CSV"
+                ]
+            },
+            {
+                "name": "Java",
+                "confidence": 0.95,
+                "sources": [
+                    "Resume"
+                ]
+            },
+            {
+                "name": "Javascript",
+                "confidence": 0.95,
+                "sources": [
+                    "Resume"
+                ]
+            },
+            {
+                "name": "Git",
+                "confidence": 0.95,
+                "sources": [
+                    "Resume"
+                ]
+            },
+            {
+                "name": "Html",
+                "confidence": 0.95,
+                "sources": [
+                    "Resume"
+                ]
+            },
+            {
+                "name": "Css",
+                "confidence": 0.95,
+                "sources": [
+                    "Resume"
+                ]
+            }
+        ],
+        "confidence": 0.92
+    }
+]

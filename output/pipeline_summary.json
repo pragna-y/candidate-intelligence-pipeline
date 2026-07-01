@@ -1,0 +1,25 @@
+{
+    "total_candidates": 3,
+    "processed_successfully": 2,
+    "failed": 1,
+    "candidates": [
+        {
+            "candidate_id": "CAND-D63BA6CC",
+            "name": "Pragna",
+            "confidence": 0.95,
+            "status": "PASSED"
+        },
+        {
+            "candidate_id": "CAND-B946FC03",
+            "name": "Rahul Sharma",
+            "confidence": 0.92,
+            "status": "FAILED"
+        },
+        {
+            "candidate_id": "CAND-A3D18C2F",
+            "name": "Ananya Reddy",
+            "confidence": 0.92,
+            "status": "PASSED"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+[
+    {
+        "field": "full_name",
+        "selected_source": "Recruiter CSV",
+        "candidate_sources": [
+            "Recruiter CSV"
+        ],
+        "reason": "Highest priority source selected"
+    },
+    {
+        "field": "email",
+        "selected_source": "Recruiter CSV",
+        "candidate_sources": [
+            "Recruiter CSV"
+        ],
+        "reason": "Highest priority source selected"
+    },
+    {
+        "field": "phone",
+        "selected_source": "Recruiter CSV",
+        "candidate_sources": [
+            "Recruiter CSV"
+        ],
+        "reason": "Highest priority source selected"
+    },
+    {
+        "field": "skills",
+        "selected_source": "GitHub",
+        "candidate_sources": [
+            "GitHub"
+        ],
+        "reason": "Highest priority source selected"
+    },
+    {
+        "field": "full_name",
+        "selected_source": "Recruiter CSV",
+        "candidate_sources": [
+            "Recruiter CSV",
+            "Resume",
+            "GitHub"
+        ],
+        "reason": "Highest priority source selected"
+    },
+    {
+        "field": "email",
+        "selected_source": "Recruiter CSV",
+        "candidate_sources": [
+            "Recruiter CSV",
+            "Resume"
+        ],
+        "reason": "Highest priority source selected"
+    },
+    {
+        "field": "phone",
+        "selected_source": "Recruiter CSV",
+        "candidate_sources": [
+            "Recruiter CSV",
+            "Resume"
+        ],
+        "reason": "Highest priority source selected"
+    },
+    {
+        "field": "skills",
+        "selected_source": "GitHub",
+        "candidate_sources": [
+            "GitHub",
+            "GitHub"
+        ],
+        "reason": "Highest priority source selected"
+    },
+    {
+        "field": "headline",
+        "selected_source": "GitHub",
+        "candidate_sources": [
+            "GitHub"
+        ],
+        "reason": "Highest priority source selected"
+    },
+    {
+        "field": "full_name",
+        "selected_source": "Recruiter CSV",
+        "candidate_sources": [
+            "Recruiter CSV",
+            "Resume",
+            "GitHub"
+        ],
+        "reason": "Highest priority source selected"
+    },
+    {
+        "field": "email",
+        "selected_source": "Recruiter CSV",
+        "candidate_sources": [
+            "Recruiter CSV",
+            "Resume"
+        ],
+        "reason": "Highest priority source selected"
+    },
+    {
+        "field": "phone",
+        "selected_source": "Recruiter CSV",
+        "candidate_sources": [
+            "Recruiter CSV",
+            "Resume"
+        ],
+        "reason": "Highest priority source selected"
+    },
+    {
+        "field": "skills",
+        "selected_source": "GitHub",
+        "candidate_sources": [
+            "GitHub",
+            "GitHub"
+        ],
+        "reason": "Highest priority source selected"
+    },
+    {
+        "field": "headline",
+        "selected_source": "GitHub",
+        "candidate_sources": [
+            "GitHub"
+        ],
+        "reason": "Highest priority source selected"
+    }
+]

@@ -1,0 +1,76 @@
+============================================================
+Candidate Transformation Report
+============================================================
+Generated : 2026-06-30 22:19:50.427987
+
+Candidate : Pragna
+Confidence : 0.95
+
+Sources Used
+------------------------------------------------------------
+full_name      Recruiter CSV
+email          Recruiter CSV
+phone          Recruiter CSV
+skills         GitHub
+
+Warnings
+------------------------------------------------------------
+Phone not available.
+
+Errors
+------------------------------------------------------------
+None
+
+Validation : PASSED
+
+============================================================
+Candidate Transformation Report
+============================================================
+Generated : 2026-06-30 22:19:50.436483
+
+Candidate : Rahul Sharma
+Confidence : 0.92
+
+Sources Used
+------------------------------------------------------------
+full_name      Recruiter CSV, Resume, GitHub
+email          Recruiter CSV, Resume
+phone          Recruiter CSV, Resume
+skills         GitHub, GitHub
+headline       GitHub
+
+Warnings
+------------------------------------------------------------
+None
+
+Errors
+------------------------------------------------------------
+Invalid email: rahul.sharma@
+
+Validation : FAILED
+
+============================================================
+Candidate Transformation Report
+============================================================
+Generated : 2026-06-30 22:19:50.443066
+
+Candidate : Ananya Reddy
+Confidence : 0.92
+
+Sources Used
+------------------------------------------------------------
+full_name      Recruiter CSV, Resume, GitHub
+email          Recruiter CSV, Resume
+phone          Recruiter CSV, Resume
+skills         GitHub, GitHub
+headline       GitHub
+
+Warnings
+------------------------------------------------------------
+None
+
+Errors
+------------------------------------------------------------
+None
+
+Validation : PASSED
